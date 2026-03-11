@@ -51,6 +51,9 @@ p {
   color: #444;
   text-decoration: none;
 }
+#cse-results {
+margin-top: 10vh !important;
+}
 @media (prefers-color-scheme: dark) {
   body {
     background: url('https://raw.githubusercontent.com/playerauth/media-assets/refs/heads/main/ag5.jpg'), #1a1c2c;
