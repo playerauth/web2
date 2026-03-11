@@ -1,5 +1,9 @@
 (function() {
-
+const loader = document.createElement('div');
+loader.style = "position:fixed;top:0;left:0;width:100vw;height:100vh;background:white;display:flex;align-items:center;justify-content:center;z-index:9999;font-size:20px;font-weight:900";
+loader.innerHTML = "Loading...";
+document.body.appendChild(loader);
+  
   const params = new URLSearchParams(location.search);
   const query = params.get('q') || 'india';
 
@@ -105,6 +109,7 @@
         });
 
         google.search.cse.element.getElement('aio-search').execute(query);
+        setTimeout(()=>loader.remove(),800);
       };
 
       if (document.readyState === 'complete') renderSearch();
