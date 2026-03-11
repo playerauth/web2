@@ -1,11 +1,10 @@
 (function() {
-  const qParam = new URLSearchParams(location.search).get('q');
 
-  // 1. GET QUERY FROM INPUT
+  const params = new URLSearchParams(location.search);
+  const query = params.get('q') || 'india';
+
   const searchInput = document.querySelector('input');
-if (searchInput && qParam) searchInput.value = qParam;
-
-const query = qParam || (searchInput ? searchInput.value : 'tokyo');
+  if (searchInput) searchInput.value = query; 
   // 2. INJECT CSS
   const style = document.createElement('style');
   style.innerHTML = `
