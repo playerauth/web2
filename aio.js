@@ -3,8 +3,9 @@
 
   // 1. GET QUERY FROM INPUT
   const searchInput = document.querySelector('input');
-  const query = searchInput ? searchInput.value : 'tokyo';
+if (searchInput && qParam) searchInput.value = qParam;
 
+const query = qParam || (searchInput ? searchInput.value : 'tokyo');
   // 2. INJECT CSS
   const style = document.createElement('style');
   style.innerHTML = `
