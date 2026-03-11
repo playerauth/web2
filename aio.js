@@ -17,7 +17,6 @@
           overflow-x: hidden !important;
           background: #eeeeee !important;
           border-radius: 5px !important;
-          margin-top: 6vh !important;
           padding: 20px 0 !important;
           -webkit-overflow-scrolling: touch;
       }
