@@ -8,9 +8,9 @@ body {
 }
 .up {
   width: 100vw;
-  margin-top: 9vh;
   justify-content: space-around;
   height: 8vh;
+  bottom: 0;
   position: fixed;
   display: flex;
   background: white;
