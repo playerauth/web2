@@ -19,14 +19,12 @@ document.body.appendChild(loader);
           height: 75vh !important;
           overflow-y: auto !important;
           position: fixed !important;
-          top: 1 !important;
+          top: 2vh !important;
           overflow-x: hidden !important;
           background: #eeeeee !important;
           border-radius: 5px !important;
-          margin-top: 0 !important;
           padding: 20px 0 !important;
           margin-left: 1vw !important;
-          margin-bottom: 15vh !important;
           -webkit-overflow-scrolling: touch;
       }
 
