@@ -25,6 +25,7 @@ document.body.appendChild(loader);
           margin-top: 2vh !important;
           padding: 20px 0 !important;
           margin-left: 1vw !important;
+          margin-bottom: 15vh !important;
           -webkit-overflow-scrolling: touch;
       }
 
