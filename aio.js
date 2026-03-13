@@ -14,19 +14,22 @@ document.body.appendChild(loader);
   style.innerHTML = `
       /* 1️⃣ THE MAIN SCROLLABLE CONTAINER */
       #cse-results {
-          width: 98vw !important;
-          margin: 40px auto !important;
-          height: 75vh !important;
-          overflow-y: auto !important;
-          position: fixed !important;
-          top: 3vh !important;
-          overflow-x: hidden !important;
-          background: #eeeeee !important;
-          border-radius: 5px !important;
-          padding: 20px 0 !important;
-          margin-left: 1vw !important;
-          -webkit-overflow-scrolling: touch;
-      }
+    width: 98vw !important;
+    height: 75vh !important;
+    position: fixed !important;
+    top: 3vh !important;     /* Keeps it near the top */
+    left: 1vw !important;    /* Correct way to center with fixed position */
+    margin: 0 !important;    /* REMOVE the old margins */
+    
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    background: #eeeeee !important;
+    border-radius: 5px !important;
+    padding: 20px 0 !important;
+    z-index: 1000 !important; /* Add this to ensure it stays on top */
+    -webkit-overflow-scrolling: touch;
+}
+
 
       /* 2️⃣ THE CARDS (80vw inside 90vw container) */
       .gsc-webResult .gsc-result {
