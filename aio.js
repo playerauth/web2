@@ -22,7 +22,7 @@ document.body.appendChild(loader);
           overflow-x: hidden !important;
           background: #eeeeee !important;
           border-radius: 5px !important;
-          margin-top: 2vh !important;
+          margin-top: 0 !important;
           padding: 20px 0 !important;
           margin-left: 1vw !important;
           margin-bottom: 15vh !important;
