@@ -19,7 +19,7 @@ document.body.appendChild(loader);
           height: 75vh !important;
           overflow-y: auto !important;
           position: fixed !important;
-          top: 2vh !important;
+          top: 3vh !important;
           overflow-x: hidden !important;
           background: #eeeeee !important;
           border-radius: 5px !important;
