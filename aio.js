@@ -1,7 +1,7 @@
 (function() {
 const loader = document.createElement('div');
 loader.style = "position:fixed;top:0;left:0;width:100vw;height:100vh;background:white;display:flex;align-items:center;justify-content:center;z-index:9999;font-size:3vh;font-weight:1000;";
-loader.innerHTML = "Loading... If it take too much time please go back to results page reload it and re click the tab you want to see...";
+loader.innerHTML = "Loading... If it take too much time please go back to results page reload it and re click the tab you want to see, or if you are in Extras pages please move to previous Extra page reload it an re click the next arrow...";
 document.body.appendChild(loader);
   
   const params = new URLSearchParams(location.search);
