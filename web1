@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Avrac/results/Extras</title>
+   <script src="https://cse.google.com/cse.js?cx=300ca4eb8698e4e56" async></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="aio.css"/>
+</head>
+<body>
+    <center>
+      <p>A</p>
+    </center>
+    <input type="text" style="display: none;" value="tokyo" name="q" id="q">
+<nav class="up">
+     <button class="h" onclick="location.href='https://avrac.playerauth7.workers.dev/results?q='+encodeURIComponent(q.value)">
+       <i class="fa-solid fa-house fa-2x"></i>
+     </button>
+    <button class="cus" onclick="location.href='https://avrac.playerauth7.workers.dev/results?q='+encodeURIComponent(q.value)'"><</button>
+      <p>Extras</p>
+       <button class="cus" onclick="location.href='web2.html?q='+encodeURIComponent(q.value)'">></button>
+</nav>
+</body>
+<script src="aio.js"></script>
+</html>
